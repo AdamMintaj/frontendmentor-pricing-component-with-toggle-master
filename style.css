@@ -6,8 +6,8 @@ body {
   background-color: #F6F6FE;
   background-image: url(images/bg-top.svg), url(images/bg-bottom.svg);
   background-repeat: no-repeat;
-  background-position: right top , left bottom;
-  background-attachment: fixed;
+  background-position: 15rem 0, left bottom;
+  background-attachment: scroll;
   font-family: Montserrat;
   margin: 0;
 }
@@ -192,6 +192,10 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
+  body {
+    background-position: right top, left bottom;
+    background-attachment: scroll;
+  }
   .pricing {
     margin-bottom: 2rem;
   }
