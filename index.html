@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+<body>
+  <section class="pricing">
+    <p class="pricing__title">Our Pricing</p>
+    <div class="pricing__label">
+      <p>Annually</p>
+      <label id="toggle" class="pricing__toggle">
+        <input id="checkbox" type="checkbox" checked>
+        <span id="toggle__button" class="toggle__button"></span>
+      </label>
+      <p>Monthly</p>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="tariff">
+      <p class="tariff__title">Basic</p>
+      <p class="tariff__price"><span>&dollar;</span>19.99</p>
+      <p class="tariff__price tariff__price--active"><span>&dollar;</span>199.99</p>
+      <ul class="tariff__features">
+        <li class="tariff__item">500 GB Storage</li>
+        <li class="tariff__item">2 Users Allowed</li>
+        <li class="tariff__item">Send up to 3 GB</li>
+      </ul>
+      <button class="tariff__button"><p>Learn More</p></button>
+    </div>
+
+    <div class="tariff tariff--active">
+      <p class="tariff__title">Professional</p>
+      <p class="tariff__price"><span>&dollar;</span>24.99</p>
+      <p class="tariff__price tariff__price--active"><span>&dollar;</span>249.99</p>
+      <ul class="tariff__features">
+        <li class="tariff__item">1 TB Storage</li>
+        <li class="tariff__item">5 Users Allowed</li>
+        <li class="tariff__item">Send up to 10 GB</li>
+      </ul>
+      <button class="tariff__button"><p>Learn More</p></button>
+    </div>
+
+    <div class="tariff">
+      <p class="tariff__title">Master</p>
+      <p class="tariff__price"><span>&dollar;</span>39.99</p>
+      <p class="tariff__price tariff__price--active"><span>&dollar;</span>399.99</p>
+      <ul class="tariff__features">
+        <li class="tariff__item">2 TB Storage</li>
+        <li class="tariff__item">10 Users Allowed</li>
+        <li class="tariff__item">Send up to 20 GB</li>
+      </ul>
+      <button class="tariff__button"><p>Learn More</p></button>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/AdamMintaj">Adam Mintaj</a>.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
