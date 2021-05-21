@@ -166,6 +166,8 @@ body {
   background-image: linear-gradient(to right, #A3A8F0, #696FDD);
   background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ========
@@ -185,6 +187,8 @@ body {
   background-image: linear-gradient(to right, #A3A8F0, #696FDD);
   background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (min-width: 1000px) {

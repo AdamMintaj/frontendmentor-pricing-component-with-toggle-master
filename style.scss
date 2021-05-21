@@ -181,6 +181,8 @@ body
                 background-image: $gradient;
                 background-clip: text;
                 color: transparent;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
         }
     }
@@ -203,6 +205,8 @@ body
             background-image: $gradient;
             background-clip: text;
             color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
 }
