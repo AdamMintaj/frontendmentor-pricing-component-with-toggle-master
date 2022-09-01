@@ -159,15 +159,7 @@ body {
 .content .tariff--active .tariff__button {
   background-image: none;
   background-color: white;
-}
-
-.content .tariff--active .tariff__button p {
-  background-image: -webkit-gradient(linear, left top, right top, from(#A3A8F0), to(#696FDD));
-  background-image: linear-gradient(to right, #A3A8F0, #696FDD);
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #8388e4;
 }
 
 /* ========

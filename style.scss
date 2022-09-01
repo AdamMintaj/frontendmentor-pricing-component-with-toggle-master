@@ -175,15 +175,7 @@ body
         {
             background-image: none;
             background-color: white;
-            
-            p
-            {
-                background-image: $gradient;
-                background-clip: text;
-                color: transparent;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
+            color: hsl(237, 64.2%, 70.4%);
         }
     }
 }
